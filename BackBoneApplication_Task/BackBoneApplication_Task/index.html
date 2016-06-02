@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    
+        <h1>
+            My Tasks
+        </h1>
+
+        <form action="" id="addTask">
+            <input type="text" placeholder="Your new task"/>
+            <input type="submit" value="Add Task"/>
+        </form>
+    <div class="task">
+        <script id="taskTemplate" type="text/template">
+            <span> <%= title %> </span>
+            <button class="edit">Edit</button>
+            <button class="delete"> Delete </button>
+       </script>
+    </div>
+        
+   
+
+    <script src="scripts/underscore-min.js"></script>
+    <script src="scripts/jquery-2.2.4.min.js"></script>
+    <script src="scripts/backbone-min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
